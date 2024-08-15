@@ -4,9 +4,9 @@ const { Model, DataTypes } = require("sequelize");
 // Local Modules
 const sequelize = require("../config/connection");
 
-class ExampleData extends Model {}
+class Post extends Model {}
 
-ExampleData.init(
+Post.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -17,6 +17,10 @@ ExampleData.init(
     message: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    title: {
+      type: DataTypes.STRING,
+      allowNull: false
     },
     user_id: {
       type: DataTypes.INTEGER,
@@ -29,11 +33,11 @@ ExampleData.init(
   },
   {
     sequelize,
-    timestamps: false,
+    timestamps: true,
     freezeTableName: true,
     underscored: true,
-    modelName: "data one",
+    modelName: "post",
   }
 );
 
-module.exports = ExampleData;
+module.exports = Post;

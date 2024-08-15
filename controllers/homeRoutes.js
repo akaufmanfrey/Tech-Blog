@@ -1,14 +1,14 @@
 const router = require("express").Router();
 
 // Import any models you plan to use for data's routes here
-const { ExampleData, User } = require("../models/");
+const { Post, User } = require("../models/");
 
 // If you would like to use an authGuard middleware, import it here
 
 // add a get / (landing page) route here
 router.get("/", async (req, res) => {
   try {
-    const exampleData = await ExampleData.findAll({
+    const exampleData = await Post.findAll({
       include: [User],
     });
 

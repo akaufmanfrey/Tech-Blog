@@ -1,0 +1,20 @@
+[
+  { "user_id": 1, 
+  "title": "Test", 
+  "message": "THIS IS AN EXAMPLE OF SOME JSON DATA" },
+  {
+    "user_id": 2,
+    "title": "Reminder",
+    "message": "DON'T FORGET TO RUN YOUR 'schema.sql' BEFORE YOU TRY SEEDING YOUR DATA"
+  },
+  {
+    "user_id": 3,
+    "title": "note",
+    "message": "DON'T FORGET TO EDIT YOUR 'schema.sql' TO A DB NAME THAT IS APPLICABLE TO YOUR PROJECT "
+  },
+  {
+    "user_id": 4,
+    "title": "Don't Forget",
+    "message": "TO RUN THE SEEDER, OPEN YOUR TERMINAL AT THE ROOT DIRECTORY OF YOUR PROJECT AND RUN 'npm run seed' TO INSERT THIS DATA"
+  }
+]

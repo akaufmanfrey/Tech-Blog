@@ -28,7 +28,6 @@ User.init(
       validate: {
         len: [8, Infinity],
       },
-      // Reminder- add any new columns you'd like to the User model here
     },
   },
   {
