@@ -1,10 +1,10 @@
 <div>
   {{! Reminder: userExamples comes from the data being passed in the res.render on pageOneRoutes.js! }}
   {{#each userExamples}}
-
+  <a href="/updatePost/{{id}}">
   <h2>{{title}}</h2>
   <p>{{message}}</p>
-
+  </a>
   {{/each}}
 </div>
 <div>

@@ -6,12 +6,6 @@ const updateFormHandler = async function (event) {
     const descriptionEl = document
         .querySelector("#description-input")
         .value.trim();
-    const linkEl = document
-        .querySelector("#link-input")
-        .value.trim();
-    const tagsEl = document
-        .querySelector("#tags-input")
-        .value.trim();
     const idArray = window.location.pathname.split('/');
     const id = idArray[idArray.length -1];
     console.log(id);
@@ -19,9 +13,7 @@ const updateFormHandler = async function (event) {
         method: "PUT",
         body: JSON.stringify({
             title: titleEL,
-            description: descriptionEl,
-            project_link: linkEl,
-            tagsId: tagsEl,
+            message: descriptionEl,
         }),
         headers: { "Content-Type": "application/json" },
     });
