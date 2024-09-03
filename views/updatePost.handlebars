@@ -1,0 +1,11 @@
+<h2>Update Post</h2>
+<form action="/api/posts/{{post.id}}"method="put" id="update-form">
+    <label for="title-input">Title</label>
+    <input type="text" id="title-input" class="form-control" name="title-input" placeholder="{{post.title}}" />
+    <label for="message-input">Description</label>
+    <textarea name="message-input" id="description-input" class="form-control" rows="3">{{post.message}}</textarea>
+    <button type="submit">Update</button>
+</form>
+</div>
+</div>
+<script src="/js/updatePost.js"></script>

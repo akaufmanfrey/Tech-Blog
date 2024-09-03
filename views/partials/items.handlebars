@@ -2,11 +2,15 @@
 {{!-- Partials are invoked in /views/ by using the syntax: {{> partial-file-name}} --}}
 
 <div>
+  
   <h2>
-    {{message}}
+    {{title}}
   </h2>
+  <p>
+    {{message}}
+  </p>
   <div>
     Posted by
-    {{user.username}}
+    {{user.username}} on {{createdAt}}
   </div>
 </div>
