@@ -9,6 +9,7 @@
 7. [Questions](#questions) 
 ## Description
 A blog for users to see posts from other users, and create and edit their own posts. The posts are stored in an sql database which is manipulated using sequelize. 
+[Link to the deployed application](https://tech-blog-zdwh.onrender.com)
 ## Installation
 Must run "npm i" to install dependencies and schema.sql must be executed to create the database. The database can be seeded with "npm run seed" and the application's server can be started with "npm start".
 ## Usage
