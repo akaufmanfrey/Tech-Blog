@@ -4,7 +4,7 @@ const { Model, DataTypes } = require("sequelize");
 // Local Modules
 const sequelize = require("../config/connection");
 
-class Post extends Model {}
+class Post extends Model { }
 
 Post.init(
   {
@@ -14,13 +14,13 @@ Post.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    message: {
+    title: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    title: {
+    message: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     user_id: {
       type: DataTypes.INTEGER,
@@ -29,7 +29,7 @@ Post.init(
         key: "id",
       },
     },
-    // Reminder- Add any new columns to the ExampleData model here
+
   },
   {
     sequelize,

@@ -1,20 +1,72 @@
 [
-  { "user_id": 1, 
-  "title": "Test", 
-  "message": "THIS IS AN EXAMPLE OF SOME JSON DATA" },
-  {
-    "user_id": 2,
-    "title": "Reminder",
-    "message": "DON'T FORGET TO RUN YOUR 'schema.sql' BEFORE YOU TRY SEEDING YOUR DATA"
-  },
-  {
-    "user_id": 3,
-    "title": "note",
-    "message": "DON'T FORGET TO EDIT YOUR 'schema.sql' TO A DB NAME THAT IS APPLICABLE TO YOUR PROJECT "
-  },
-  {
-    "user_id": 4,
-    "title": "Don't Forget",
-    "message": "TO RUN THE SEEDER, OPEN YOUR TERMINAL AT THE ROOT DIRECTORY OF YOUR PROJECT AND RUN 'npm run seed' TO INSERT THIS DATA"
-  }
+    {
+        "title": "Advanced Node.js Techniques",
+        "message": "Exploring advanced techniques and best practices for Node.js development.",
+        "user_id": 1
+    },
+    {
+        "title": "Mastering ES6 Features",
+        "message": "A comprehensive guide to mastering the new features introduced in ES6.",
+        "user_id": 2
+    },
+    {
+        "title": "Principles of Object-Oriented Programming",
+        "message": "Understanding and applying the core principles of object-oriented programming.",
+        "user_id": 3
+    },
+    {
+        "title": "Building REST APIs with Express",
+        "message": "Creating and managing RESTful APIs using Express.js.",
+        "user_id": 4
+    },
+    {
+        "title": "SQL Query Optimization Techniques",
+        "message": "Techniques for optimizing SQL queries and improving database performance.",
+        "user_id": 5
+    },
+    {
+        "title": "Implementing the MVC Paradigm",
+        "message": "Applying the Model-View-Controller paradigm in modern web applications.",
+        "user_id": 6
+    },
+    {
+        "title": "Using Sequelize with Node.js",
+        "message": "A guide to integrating Sequelize ORM with Node.js applications.",
+        "user_id": 7
+    },
+    {
+        "title": "Testing Strategies for JavaScript Applications",
+        "message": "Best practices and tools for testing JavaScript applications effectively.",
+        "user_id": 8
+    },
+    {
+        "title": "Agile Development Methodologies",
+        "message": "Exploring various Agile development methodologies and their applications.",
+        "user_id": 9
+    },
+    {
+        "title": "Effective Team Collaboration Techniques",
+        "message": "Strategies and tools for enhancing team collaboration in software development projects.",
+        "user_id": 10
+    },
+    {
+        "title": "Agile Development Best Practices",
+        "message": "Best practices for implementing Agile development effectively within teams.",
+        "user_id": 11
+    },
+    {
+        "title": "Node.js Performance Optimization",
+        "message": "Techniques for optimizing the performance of Node.js applications.",
+        "user_id": 12
+    },
+    {
+        "title": "Understanding ES6 Modules",
+        "message": "An introduction to ES6 modules and how to use them in your projects.",
+        "user_id": 13
+    },
+    {
+        "title": "Object-Oriented Design Patterns",
+        "message": "Exploring common design patterns used in object-oriented programming.",
+        "user_id": 14
+    }
 ]
